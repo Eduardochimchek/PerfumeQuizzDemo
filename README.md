@@ -6,7 +6,7 @@ Este repositório contém um site de quiz interativo, com interface responsiva e u
 
 Você pode ver o site em funcionamento no seguinte link:
 
-[**Visite o site no GitHub Pages**](https://Eduardochimchek.github.io/PerfumeQuizzDemo)
+[**Visite o site**](https://Eduardochimchek.github.io/PerfumeQuizzDemo)
 
 Aqui está uma captura de tela da interface:
 
@@ -34,9 +34,7 @@ O site será carregado localmente diretamente a partir do arquivo HTML.
 
 ## Tecnologias Usadas
 
-HTML5
-CSS3
-JavaScript
+HTML5 | CSS3 | JavaScript
 
 ## Contribuindo
 
