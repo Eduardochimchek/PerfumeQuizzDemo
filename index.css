@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* Alinhar o conteúdo na direção da coluna */
+    height: 100vh;
+    overflow: hidden;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('./imagens/fundoEstrelado.png') no-repeat center center;
+    background-size: cover;
+    opacity: 0.3;
+    z-index: 1;
+}
+
+.quiz-container {
+    text-align: center;
+    background: rgb(0 0 0 / 60%);
+    border-radius: 12px;
+    padding: 20px;
+    width: 90%;
+    z-index: 2;
+    max-width: 500px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.quiz-header {
+    margin-bottom: 20px;
+}
+
+.quiz-header h1 {
+    font-size: 2em;
+    margin: 0;
+    background: linear-gradient(90deg, #B7DEE5 0%, #030303 117.33%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.quiz-header p {
+    color: #b0c6cf;
+    margin-top: 10px;
+}
+
+.question {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.option {
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    z-index: 2;
+    background: linear-gradient(224.9deg, #DAF9FF -2.36%, #004D5A 95.93%), #242424;
+}
+
+.option:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+}
+
+.result {
+    display: none;
+    text-align: center;
+}
+
+.result h2 {
+    color: #d1efff;
+}
+
+.restart {
+    margin-top: 20px;
+    background: linear-gradient(135deg, #000000, #2d626d00);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    position: relative;
+    z-index: 2;
+    border: 1px solid white;
+}
+
+.restart:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+}
+
+/* Estilos para o footer */
+.footer {
+    position: absolute;
+    bottom: 20px;
+    /* Fixar o footer na parte inferior */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 2;
+    width: 100%;
+}
+
+.footer img {
+    max-height: 50px;
+    object-fit: contain;
+}
+
+.ellipse {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: calc(50% - 351px / 2 - 0.5px);
+    top: 50%;
+    transform: translateY(-50%);
+    background: linear-gradient(330.23deg, #32E0FF 10.36%, #DAF9FF 85.22%);
+    mix-blend-mode: screen;
+    filter: blur(88.9px);
+    z-index: 0;
+}
