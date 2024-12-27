@@ -55,6 +55,3 @@ Este projeto está licenciado sob a Licença MIT.
 1. **Substitua** `Eduardochimchek` e `PerfumeQuizzDemo` pelos valores corretos do seu repositório do GitHub.
 2. **Imagem**: Caso queira usar a imagem que você mencionou (`/imagens/demonstração.png`), verifique se ela está no diretório correto dentro do repositório e está acessível via URL relativa. Caso contrário, altere o caminho da imagem para onde ela estiver.
 3. **GitHub Pages**: O link `https://Eduardochimchek.github.io/PerfumeQuizzDemo` é o link padrão do seu site no GitHub Pages. Certifique-se de que ele esteja configurado corretamente nas configurações do repositório.
-
-### Resultado final:
-Esse README vai fornecer aos usuários uma boa descrição do projeto, como rodá-lo localmente e como visualizar o site ao vivo.
