@@ -10,7 +10,7 @@ Você pode ver o site em funcionamento no seguinte link:
 
 Aqui está uma captura de tela da interface:
 
-![Demonstração](imagens/demonstracao.png)
+![Demonstração](./imagens/demonstração.png)
 
 ## Funcionalidades
 
