@@ -40,10 +40,10 @@ HTML5 | CSS3 | JavaScript
 
 Se você quiser contribuir para o projeto, siga estas etapas:
 
-Faça um fork deste repositório.
-Crie uma branch para a sua feature (git checkout -b feature/nome-da-feature).
-Faça commit das suas mudanças (git commit -am 'Adiciona nova feature').
-Envie para o repositório remoto (git push origin feature/nome-da-feature).
+Faça um fork deste repositório.<br>
+Crie uma branch para a sua feature (git checkout -b feature/nome-da-feature).<br>
+Faça commit das suas mudanças (git commit -am 'Adiciona nova feature').<br>
+Envie para o repositório remoto (git push origin feature/nome-da-feature).<br>
 Abra um pull request.
 
 ## Licença
